@@ -1,0 +1,83 @@
+:root{
+    --nav-back: #000000CF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--nav-back);
+    padding: 10px 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    button{
+        background-color: transparent;
+        color: white;
+        font-size: xx-large;
+        display: flex;
+        gap: 10px;
+    }
+    img{
+        margin-left: 5%;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            &:hover{
+                color: #ffc107;
+            }
+        }
+        .language{
+            display: flex;
+            gap: 10px;
+            button{
+                font-size: large;
+            }
+        }
+    }
+    .modal{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        transform: translateX(-100%);
+        transition: all 0.3s ease-in-out;
+        .modal-1{
+            width: 23%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 70px 0px;
+            .a{
+                border: 1px solid white;
+                padding:  10px 20px;
+                transition: all 0.2s ease-in;
+                &:hover{
+                    background-color: white;
+                    color: #ffc107;
+                }
+            }
+        }
+        .modal-2{
+            width: 77%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.453);
+            transform: translateX(-2%);
+        }
+    }
+}

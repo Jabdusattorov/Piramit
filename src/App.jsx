@@ -1,10 +1,10 @@
-import './App.css'
-import "bootstrap/dist/css/bootstrap.css"
+import Page1 from './Pages/Page1';
+import "./app.scss"
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to new <br /> <span className='text-warning'>Piramit</span> <br /> Web Site</h1>
+      <Page1 />
     </div>
   )
 }
