@@ -4,7 +4,7 @@ import "./ComponentsPage1/login.scss"
 const Login = () => {
   return (
     <div>
-      Login
+      welcome to PIRAMIT
     </div>
   )
 }
