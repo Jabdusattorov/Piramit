@@ -16,12 +16,14 @@ nav{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 999;
     button{
         background-color: transparent;
         color: white;
         font-size: xx-large;
         display: flex;
         gap: 10px;
+        align-items: center;
     }
     img{
         margin-left: 5%;

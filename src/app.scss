@@ -2,3 +2,34 @@ body{
     background-color: #000;
     font-family: sans-serif;
 }
+ul {
+  list-style: none;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
+#sticky_nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+#logo {
+  margin-left: 330px;
+}
+#dropdown {
+  position: fixed;
+  z-index: 9999;
+}
+#nav {
+    color: white;
+}
+#nav:hover {
+    color: #fffb00ee;
+}
+#showcase {
+    min-height: 85.3vh;
+}

@@ -13,7 +13,7 @@ const Nav = () => {
   }
   return (
     <nav>
-      <button id='modal-btn' onClick={btn}>
+      <button id='modal-btn' className='border-0' onClick={btn}>
       <i className="fa-solid fa-table-cells-large"></i>
         Menu
       </button>
@@ -23,9 +23,9 @@ const Nav = () => {
             <i className="fa-solid fa-phone"></i> +998 78 777 33 33
         </a>
         <div className="language">
-            <button>TR</button>
-            <button>UZ</button>
-            <button>RU</button>
+            <button className='border-0'>TR</button>
+            <button className='border-0'>UZ</button>
+            <button className='border-0'>RU</button>
         </div>
         </div>
 
