@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/js/dist/carousel";
-import Nav from "../Pages/components/Nav";
 const Header = () => {
-  const [activeDropdown, setActiveDropdown] = useState(false);
   return (
     <header>
-      <Nav/>
       <article id="showcase">
         <div id="carouselExample" className="carousel slide">
           <div className="carousel-inner">

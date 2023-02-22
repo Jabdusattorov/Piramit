@@ -32,8 +32,13 @@ footer{
                 display: block;
                 transition: all 0.05s ease-in;
             }
-            a:hover{
-                color: #ffc107;
+            a{
+                text-decoration: none;
+                color: rgb(161, 161, 161);
+                &:hover{
+                    color: #ffc107;
+                    transition: all 0.05s ease-in;
+                }
             }
         }
     }
@@ -42,9 +47,13 @@ footer{
         display: flex;
         justify-content: space-between;
         padding: 40px 20% 30px;
-        a:hover{
-            color: #ffc107;
-            transition: all 0.05s ease-in;
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: #ffc107;
+                transition: all 0.05s ease-in;
+            }
         }
     }
 }

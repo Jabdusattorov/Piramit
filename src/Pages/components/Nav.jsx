@@ -31,8 +31,8 @@ const Nav = () => {
 
         <div className="modal">
          <div className="modal-1">
-         <Link to="#">Bosh sahifa</Link>
-          <Link to="#">Biz haqimizda</Link>
+         <Link to="/">Bosh sahifa</Link>
+          <Link to="/about">Biz haqimizda</Link>
           <Link to="#">Joylashuv</Link>
           <Link to="#">Me'moriy Yechim</Link>
           <Link to="#">Qavat planlari</Link>

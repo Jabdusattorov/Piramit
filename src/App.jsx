@@ -6,21 +6,22 @@ import Login from './Pages/Login';
 import { Link, Route, Routes } from 'react-router-dom';
 
 import "./Pages/ComponentsPage1/pageAbout1.scss"
-import LeftButton from "./Pages/components/LeftButton";
-import RightBUtton from './Pages/components/RightButton';
 import Home from './Pages/Home';
+import Nav from './Pages/components/Nav';
+import Location from './Pages/Location';
 
 function App() {
   return (
     <div className="App">
-      <LeftButton />
-      <RightBUtton />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />}>
+           <Route path="messages" element={<Nav />}/>
+        </Route> 
         <Route path="/login" element={<Login />} />
-        <Route path="/page1" element={<Page1 />} />
-        <Route path="/page2" element={<Page2Video />} />
+        <Route path="/about" element={<Page1 />} />
+        <Route path="/video" element={<Page2Video />} />
         <Route path="/page3" element={<Page3Plans />} />
+        <Route path="/location" element={<Location />} />
       </Routes>
     </div>
   );
