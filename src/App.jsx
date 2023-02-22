@@ -8,6 +8,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import "./Pages/ComponentsPage1/pageAbout1.scss"
 import LeftButton from "./Pages/components/LeftButton";
 import RightBUtton from './Pages/components/RightButton';
+import Home from './Pages/Home';
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
       <LeftButton />
       <RightBUtton />
       <Routes>
-        <Route path='/login' element={<Login />} />
-        <Route path='/page1' element={<Page1 />} />
-        <Route path='/page2' element={<Page2Video />} />
-        <Route path='/page3' element={<Page3Plans />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/page1" element={<Page1 />} />
+        <Route path="/page2" element={<Page2Video />} />
+        <Route path="/page3" element={<Page3Plans />} />
       </Routes>
     </div>
-  )
+  );
 }
 
 export default App
