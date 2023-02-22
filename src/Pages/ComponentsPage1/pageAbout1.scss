@@ -39,3 +39,15 @@
         }
     }
 }
+
+.iframe{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    iframe{
+        width: 75%;
+        height: 75%;
+    }
+}
